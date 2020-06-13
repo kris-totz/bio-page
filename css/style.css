@@ -1,0 +1,69 @@
+body {
+	background-color: moccasin; 
+	color:black;
+	font-family: 'Open Sans', sans-serif, arial;
+	font-size: 2em;
+	margin: 1em;
+}
+
+.main {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 600px;
+	border: 2px solid white
+}
+
+.primary-heading {
+	color: blue;
+	text-align: center;
+	line-height: 5;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 22%, rgba(0,212,255,1) 100%);
+}
+
+.container {
+	padding: 0 1em;
+	width: auto;
+	margin: 0 auto;
+	max-width: auto;
+}
+
+.skills {
+	height: 400px;
+}
+
+.skills .highlight {
+	text-align: end;
+}
+
+.skills ul {
+	float: right;
+}
+
+.highlight {
+	color: white;
+	background-color: royalblue;
+	font-weight: normal;
+}
+
+.header {
+	background: white;
+} 
+
+header,  h1, h2 {
+	font-family: 'Noto Sans HK', sans-serif, arial;
+	text-transform: uppercase;
+}
+
+ol, ol li {
+	background-color: black;
+	color: white;
+	font-style: italic;
+	text-align: center;
+}
+
+.joke {
+	text-decoration: line-through;
+}
